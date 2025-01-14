@@ -1,0 +1,76 @@
+{
+    "women": [
+        { "name": "Formal Blouse", "category": "women", "price": 80, "image": "img/blouse.jpg" },
+        { "name": "Formal Blouse", "category": "women", "price": 80, "image": "img/blouse1.jpg" },
+        { "name": "Formal Blouse", "category": "women", "price": 80, "image": "img/blouse2.jpg" },
+        { "name": "Pleated Abaya", "category": "abaya", "price": 215, "image": "img/abaya.jpg" },
+        { "name": "Exclusive Abaya", "category": "abaya", "price": 145, "image": "img/abaya1.jpg" },
+        { "name": "Exclusive Abaya", "category": "abaya", "price": 200, "image": "img/abaya2.jpg" },
+        { "name": "Flowy Chiffon Shawl", "category": "hijab", "price": 45, "image": "img/shawl.jpg" },
+        { "name": "Casual Hijab", "category": "hijab", "price": 35, "image": "img/shawl1.jpg" },
+        { "name": "Casual Hijab", "category": "hijab", "price": 40, "image": "img/shawl2.jpg" },
+        { "name": "Floral Pant", "category": "pant", "price": 120, "image": "img/pant.jpg" },
+        { "name": "Floral Pant", "category": "pant", "price": 120, "image": "img/pant1.jpg" },
+        { "name": "Floral Pant", "category": "pant", "price": 120, "image": "img/pant2.jpg" }
+    ],
+    "abaya": [
+        { "name": "Pleated Abaya", "category": "abaya", "price": 215, "image": "img/abaya.jpg" },
+        { "name": "Exclusive Abaya", "category": "abaya", "price": 145, "image": "img/abaya1.jpg" },
+        { "name": "Exclusive Abaya", "category": "abaya", "price": 200, "image": "img/abaya2.jpg" },
+        { "name": "Classic Jubah", "category": "abaya", "price": 200, "image": "img/jubah1.jpg" },
+        { "name": "Modern Jubah", "category": "abaya", "price": 200, "image": "img/jubah2.jpg" },
+        { "name": "Classic Jubah", "category": "abaya", "price": 200, "image": "img/jubah3.jpg" },
+        { "name": "Kid's Abaya", "category": "abaya", "price": 90, "image": "img/abayak.jpg" },
+        { "name": "Kid's Abaya", "category": "abaya", "price": 90, "image": "img/abayak1.jpg" },
+        { "name": "Kid's Abaya", "category": "abaya", "price": 90, "image": "img/abayak2.jpg" },
+        { "name": "Traditional Jubah", "category": "abaya", "price": 95, "image": "img/jubahk.jpg" },
+        { "name": "Traditional Jubah", "category": "abaya", "price": 95, "image": "img/jubahk1.jpg" },
+        { "name": "Traditional Jubah", "category": "abaya", "price": 95, "image": "img/jubahk2.jpg" }
+    ],
+    "hijab": [
+        { "name": "Flowy Chiffon Shawl", "category": "hijab", "price": 45, "image": "img/shawl.jpg" },
+        { "name": "Casual Hijab", "category": "hijab", "price": 35, "image": "img/shawl1.jpg" },
+        { "name": "Casual Hijab", "category": "hijab", "price": 40, "image": "img/shawl2.jpg" },
+        { "name": "Pink Hijab", "category": "hijab", "price": 25, "image": "img/hijabk.jpg" },
+        { "name": "Pink Hijab", "category": "hijab", "price": 25, "image": "img/hijabk1.jpg" },
+        { "name": "Pink Hijab", "category": "hijab", "price": 25, "image": "img/hijabk3.jpg" }
+    ],
+    "blouse": [
+        { "name": "Formal Blouse", "category": "blouse", "price": 80, "image": "img/blouse.jpg" },
+        { "name": "Formal Blouse", "category": "blouse", "price": 80, "image": "img/blouse1.jpg" },
+        { "name": "Formal Blouse", "category": "blouse", "price": 80, "image": "img/blouse2.jpg" }
+    ],
+    "pant": [
+        { "name": "Floral Pant", "category": "pant", "price": 120, "image": "img/pant.jpg" },
+        { "name": "Floral Pant", "category": "pant", "price": 120, "image": "img/pant1.jpg" },
+        { "name": "Floral Pant", "category": "pant", "price": 120, "image": "img/pant2.jpg" },
+        { "name": "Chino Pants", "category": "pant", "price": 130, "image": "img/pantm.jpg" },
+        { "name": "Chino Pants", "category": "pant", "price": 130, "image": "img/pantm1.jpg" },
+        { "name": "Chino Pants", "category": "pant", "price": 130, "image": "img/pantm2.jpg" }
+    ],
+    "men": [
+        { "name": "Classic Jubah", "category": "abaya", "price": 200, "image": "img/jubah1.jpg" },
+        { "name": "Modern Jubah", "category": "abaya", "price": 200, "image": "img/jubah2.jpg" },
+        { "name": "Classic Jubah", "category": "abaya", "price": 200, "image": "img/jubah3.jpg" },
+        { "name": "Chino Pants", "category": "pant", "price": 130, "image": "img/pantm.jpg" },
+        { "name": "Chino Pants", "category": "pant", "price": 130, "image": "img/pantm1.jpg" },
+        { "name": "Chino Pants", "category": "pant", "price": 130, "image": "img/pantm2.jpg" }
+    ],
+    "boy": [
+        { "name": "Traditional Jubah", "category": "abaya", "price": 95, "image": "img/jubahk.jpg" },
+        { "name": "Traditional Jubah", "category": "abaya", "price": 95, "image": "img/jubahk1.jpg" },
+        { "name": "Traditional Jubah", "category": "abaya", "price": 95, "image": "img/jubahk2.jpg" }
+    ],
+    "girl": [
+        { "name": "Kid's Abaya", "category": "abaya", "price": 90, "image": "img/abayak.jpg" },
+        { "name": "Kid's Abaya", "category": "abaya", "price": 90, "image": "img/abayak1.jpg" },
+        { "name": "Kid's Abaya", "category": "abaya", "price": 90, "image": "img/abayak2.jpg" },
+        { "name": "Pink Hijab", "category": "hijab", "price": 25, "image": "img/hijabk.jpg" },
+        { "name": "Pink Hijab", "category": "hijab", "price": 25, "image": "img/hijabk1.jpg" },
+        { "name": "Pink Hijab", "category": "hijab", "price": 25, "image": "img/hijabk3.jpg" }
+    ]
+
+
+}
+
+

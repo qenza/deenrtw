@@ -1,0 +1,101 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  header {
+  position: fixed; 
+  top: 0;         
+  left: 0;         
+  width: 100%;    
+  background-color: white; 
+  z-index: 1000; 
+  border-bottom: 2px solid #ccc; 
+  padding: 4px;  
+  }
+  
+  .back-button {
+    text-decoration: none;
+    font-size: 20px;
+    color: #000;
+  }
+  
+  main {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .subtitle {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 30px;
+  }
+  
+  .subtitle a {
+    color: #000;
+    text-decoration: underline;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+  
+  label {
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #000;
+  }
+  
+  input, select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  input::placeholder {
+    color: #ccc;
+  }
+  
+  button.submit-button {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button.submit-button:hover {
+    opacity: 0.8;
+  }
+  

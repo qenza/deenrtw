@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page</title>
+    <link rel="stylesheet" href="profile.css">
+    <!-- Link to the external CSS file here -->
+    <script src="profile.js" defer></script>
+    <!-- Link to the external JS file here -->
+    <script src="https://code.jquery.com/jquery- 3.6.0.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Link to the jquery here -->
+</head>
+<body>
+    <div class = "container">
+        <header>
+            <a href="homepage.html" class="back-button">&larr;</a>
+            <h1>Profile Page</h1>
+            <div class="user_information">
+                <span>Hi, Jiara Martin!</span>
+                <img src="userpic.jpg" alt="user_icon" class="user_icon">
+            </div>
+        </header>
+        <main>
+            <section class="details">
+                <h2>Details</h2>
+                <a href="#" class="details_item" id="track_order" onclick="openPopup()">
+                    <img src="track_order_box.jpg">
+                    <p>Track Order</p>
+                </a>
+                    <div class="popup" id="popup_track_order">
+                        <img src="car.jpg">
+                        <h2>order status</h2>
+                        <p>your parcel has been successfully delivered!</p>
+                        <button type="button" onclick="closePopup()">OK</button>
+                    </div>
+                
+            
+                <a href="#" class="details_item" id="addresses" onclick="openPopup()">
+                    <img src="addresses_icon.jpg" >
+                    <p>Adresses</p>
+                </a>
+                <div class="popup" id="popup_addresses">
+                    <img src="house.jpg">
+                    <h2>Saved Address</h2>
+                    <p>No. 23, Jalan Melati 3, Taman Melawati 53100, Ampang,Selangor</p>
+                    <button type="button" onclick="closePopup()">OK</button>
+                </div>
+
+
+                <a href="#" class="details_item" id="reviews" onclick="openPopup()">
+                    <img src="reviews_icon.jpg" >
+                    <p>Reviews</p>
+                </a>
+                <div class="popup" id="popup_reviews">
+                    <img src="star.jpg">
+                    <h2>Reviews</h2>
+                    <p>Suhaila112:</p>
+                    <p>"Great quality and modest designs! Perfect for both casual and formal occasions."</p>
+                    <button type="button" onclick="closePopup()">OK</button>
+                </div>
+
+
+            </section>
+            <section class="helpcenter">
+                <h2>Help Center</h2>
+
+                <a href="#" class="helpcenter_item" id="faq" onclick="openPopup()">
+                    <img src="faq_icon.jpg" >
+                    <p>FAQ</p>
+                </a>
+                <div class="popup" id="popup_faq">
+                    <img src="faq.jpg">
+                    <h2>Frequently Asked Questions</h2>
+                    <p>Q: Do you offer shipping to Sabah and Sarawak?</p>
+                    <p>A: Yes, we provide shipping all around Malaysia. Delivery times and costs vary depending on your location.</p>
+                    <p>Q: Are your materials suitable for sensitive skin?</p>
+                    <p>A: Yes, our fabrics are carefully selected to ensure comfort and suitability for all skin types, including sensitive skin.</p>  
+                    <p>Q: Can I track my order after purchase?</p>
+                    <p>A: Yes, once your order is shipped, you will receive a tracking number to monitor its progress.</p>
+                    <button type="button" onclick="closePopup()">OK</button>
+                </div>
+
+
+                <a href="#" class="helpcenter_item" id="contactus" onclick="openPopup()">
+                    <img src="contactus_icon.jpg" >
+                    <p>Contact Us</p>
+                </a>
+                <div class="popup" id="popup_contactus">
+                    <img src="cs.jpg" >
+                    <h2>Contact Us</h2>
+                    <p>You can reach us via email (deenrtw@gmail.com) or phone (+091234567)!</p><br>
+                    <p>Facebook: DeenRTW</p><br>
+                    <p>Instagram: DeenRTW</p><br>
+                    <p>X: DeenRTW</p>
+                    <button type="button" onclick="closePopup()">OK</button>
+                </div>
+
+                <a href="#" class="helpcenter_item" id="policy" onclick="openPopup()">
+                    <img src="refund&returnpolicy_icon.jpg" >
+                    <p>Refund & Return Policy</p>
+                </a>
+                <div class="popup" id="popup_policy">
+                    <img src="policy.jpg">
+                    <h2>Refund & Return Policy</h2>
+                    <p>Return Eligibility: Items can be returned within 14 days of delivery. The product must be unused, unwashed, and in its original condition with all tags and packaging intact.</p>
+                    <p>Refund Process: Refunds will be processed within 7-10 business days after the returned items are received and inspected. Refunds will be issued to the original payment method.</p>
+                    <p>Non-Refundable Items: Items purchased during clearance sales, custom-made products, or innerwear (e.g., hijab inners) are non-refundable for hygiene and promotional reasons</p>
+                    <button type="button" onclick="closePopup()">OK</button>
+                </div>
+                
+
+            </section> 
+        </main>
+    </div>
+</body>
+</html>

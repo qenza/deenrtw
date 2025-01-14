@@ -1,0 +1,244 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #faf9f8;
+    color: #333;
+}
+
+.navbar {
+    display: flex; /* Positions items in a row */
+    align-items: center; /* Centers items vertically */
+    justify-content: space-between; /* Space between logo and icons */
+    padding: 10px 20px;
+    background-color: #f8f9fa; /* Light background color */
+    border-bottom: 1px solid #ddd;
+}
+
+.logo img {
+    width: 100px; /* Adjust the size of the logo */
+    position: absolute;
+    right: 1155px;
+    top: 10px;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color:whitesmoke;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    left: 0px;
+    font-size: 36px;
+    margin-left: 10px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+.fa-cart-shopping {
+    position: absolute; /* Position relative to the container */
+      top: 10px; /* Distance from the top */
+      right: 0px; /* Distance from the right */
+      font-size: 24px; 
+    color: lightgrey;
+   margin-right: 15px;
+
+}
+
+.fa-magnifying-glass{
+    position: absolute; /* Position relative to the container */
+      top: 10px; /* Distance from the top */
+      right: 0px; /* Distance from the right */
+      font-size: 24px; 
+    color: lightgrey;
+   margin-right: 70px;
+}
+.fa-user {
+    position: absolute; /* Position relative to the container */
+      top: 10px; /* Distance from the top */
+      right: 10px; /* Distance from the right */
+      font-size: 24px; 
+    color: lightgrey;
+    gap: 30px;
+
+}
+
+.fa-house{
+    position: absolute; /* Position relative to the container */
+      top: 10px; /* Distance from the top */
+      right: 50px; /* Distance from the right */
+      font-size: 24px; 
+    color: lightgrey;
+    gap: 30px;
+
+}
+
+.fa-heart{
+    position: absolute; 
+      top: 10px; 
+      right: 100px; 
+      font-size: 24px;
+    color: lightgrey;
+    gap: 30px;
+
+}
+
+.fa-bars{
+    position: absolute; 
+      top: 10px; 
+      right: 1300px; 
+      font-size: 24px;
+    color: lightgrey;
+    gap: 30px;
+}
+
+
+
+
+.slick-dots {
+    position: absolute;
+    left: 50%;    /* Horizontally center */
+    transform: translateX(-50%); /* Center the dots */
+    bottom: 10px; 
+    display:flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .slick-dots li {
+    margin: 0 5px; 
+  }
+  
+  .slick-dots li button {
+    width: 12px; 
+    height: 12px;
+    border-radius: 50%;
+    background-color: #ccc; 
+    border: none;
+    cursor: pointer;
+  }
+  
+  .slick-dots li.slick-active button {
+    background-color: grey; 
+    transform: scale(1.2); 
+  }
+  
+/* Section Styling */
+.section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.section-container {
+    display: flex;
+    gap: 20px; /* Adjust spacing between cards */
+    justify-content: center;
+    flex-wrap: wrap; /* Makes items wrap for smaller screens */
+    width: 100%;
+}
+
+/* Card Styling */
+.card-category {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px; /* Fixed width for cards */
+    position: relative; /* For absolute positioning of img */
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-category:hover {
+    transform: scale(1.05); /* Slight zoom on hover */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card-category h2 {
+    margin-bottom: 10px; 
+    font-size: 18px;
+}
+
+
+.card-category img {
+    width: 250px; 
+    height: auto; 
+    border-radius: 20px;
+    object-fit: cover; 
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.card-category img:hover {
+    filter: brightness(1.1) saturate(1.2); 
+    transform: scale(1.05);
+}
+
+.card-category:hover .card-category:not(:hover) {
+    transform: scale(.9);
+    filter: brightness(.5) saturate(0) contrast(1.2) blur(20px);
+}
+
+
+section {
+  background-color: #f9f9f9; 
+  padding: 50px 20px; 
+  text-align: center; 
+}
+
+
+.aboutus {
+  max-width: 800px; 
+  margin: 0 auto;
+  padding: 20px; 
+  border-radius: 10px; 
+  background-color: #fff; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+
+.aboutus h1 {
+  font-size: 2.5rem; 
+  color: #2a2a2a; 
+  margin-bottom: 20px; 
+  text-transform: uppercase; 
+  letter-spacing: 2px;
+}
+
+
+.aboutus p {
+  font-size: 1.2rem; 
+  line-height: 1.8; 
+  color: #555; 
+  margin: 0; 
+}
+
+
+

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Menu Bar -->
+    <header class="menu-bar">
+        <button id="menu-button" class="menu-icon">☰</button>
+        <h1 id="category-title">Product</h1>
+        <div class="menu-actions">
+            <a href="homepage.html"><button id="home-button"><i class="fas fa-home"></i></button></a> <!-- Home Icon -->
+            <!-- Favourite Button (Heart Icon) -->
+            <a href="favourites.html">
+            <button id="favourite-button">
+            <i class="fa fa-heart"></i>
+            <a href="checkout.html">
+              <button id="checkout">
+              <i class="fa-solid fa-cart-shopping"></i>
+    </button>
+</a>
+
+           
+            <a href="profile.html"><button id="profile-button"><i class="fas fa-user"></i></button></a> <!-- User Icon for Profile -->
+        </div>
+    </header>
+
+    <!-- Category Filter -->
+   
+
+    <div class="category-filter">
+      <button data-category="women">Women</button>
+      <button data-category="men">Men</button>
+      <button data-category="girl">Girl</button>
+      <button data-category="boy">Boy</button>
+        <button data-category="abaya">Abaya</button>
+        <button data-category="hijab">Hijab</button>
+        <button data-category="blouse">Blouse</button>
+        <button data-category="pant">Pant</button>
+        <button data-category="scarf">Scarf</button>
+    </div>
+
+    <!-- Product Container -->
+    <div id="product-container" class="product-grid"></div>
+    <div id="subcategory-container" class="subcategory-filter hidden"></div>
+    <div id="productDisplay"></div>
+    <!-- Favourites List -->
+    <div id="favourites-modal" class="modal hidden">
+        <h2>Your Favourites</h2>
+        <div id="favourite-products"></div>
+        <button id="close-favourites">Close</button>
+    </div>
+  
+      
+  
+  <!-- Popup Modal -->
+<div id="popup" class="popup hidden">
+  <div class="popup-content">
+    <span id="close-popup" class="close">&times;</span>
+    <h2>Order Confirmation</h2>
+    <p>Your order has been successfully placed!</p>
+    <button onclick="window.location.href='product.html'">Go to Home</button>
+  </div>
+</div>
+
+    <script src="script.js"></script>
+    <footer>
+        <p>&copy; 2025 Modest Wear. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

@@ -1,3 +1,4 @@
+# DEEN-RTW-WEBSITE
 ## Project Name: DEEN RTW website
 ### Description
 this is DEEN RTW website showcasing the work of our team.
@@ -15,4 +16,3 @@ this is DEEN RTW website showcasing the work of our team.
 10. By clicking like button, the product will added to favourite page.
 11. By clicking add to cart button, the product will be in the checkout page and all the added product will be displayed. It will also calculate the total price and shipping fee. User should fill in the name, email and address for checkout.
 12. By clicking sales, it will display any sales if availble.
-                                                                    

@@ -1,10 +1,15 @@
-# deenrtw
-## Project Name: Deen rtw website
+## Project Name: DEEN RTW website
 ### Description
-this is deenrtw website showcasing the work of our team.
+this is DEEN RTW website showcasing the work of our team.
 
 ### step to run:
-1. extract the files from the ZIP name "grupz_Deenrtwwebsite.zip".
-2. open 'index.html' in your preffered browser.
+1. extract the files from the ZIP name "grupz_DEENRTWwebsite.zip".
+2. open 'homepage.html' in your preffered browser.
 3. alternatively, host the files on a local server using tools like `Live Server` for optimal results.
-4. open 
+4. by opening `homepage.html`, you will see the main page. Next, you can retrieve `profile page`, `product page`, `favourite page` and `checkout page` by opening `profile.html`, `product.html`, `favourite.html`, and `checkout.html`.
+5. Next, click on user icon at the top right to create new account or log in for existing user.
+6. Next, click on menu at the top left and you will see home, product, sale and our social media.
+7. By clicking product, all product will be displayed unfiltered. To see the product by each category, you can click any desirable choice and it filtered the product.
+8. By clicking like button, the product will added to favourite page.
+9. By clicking add to cart button, the product will be in the checkout page and all the added product will be displayed. It will also calculate the total price and shipping fee. User should fill the name, email and address for checkout.  
+                                                                    
